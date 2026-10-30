@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.installationStatus = exports.Interception = exports.Device = exports.MAX_MOUSE = exports.MAX_KEYBOARD = exports.MAX_DEVICE = exports.MouseState = exports.KeyState = exports.MouseFlag = exports.FilterMouseState = exports.FilterKeyState = void 0;
+var native_1 = require("./native");
+Object.defineProperty(exports, "FilterKeyState", { enumerable: true, get: function () { return native_1.FilterKeyState; } });
+Object.defineProperty(exports, "FilterMouseState", { enumerable: true, get: function () { return native_1.FilterMouseState; } });
+Object.defineProperty(exports, "MouseFlag", { enumerable: true, get: function () { return native_1.MouseFlag; } });
+Object.defineProperty(exports, "KeyState", { enumerable: true, get: function () { return native_1.KeyState; } });
+Object.defineProperty(exports, "MouseState", { enumerable: true, get: function () { return native_1.MouseState; } });
+Object.defineProperty(exports, "MAX_DEVICE", { enumerable: true, get: function () { return native_1.MAX_DEVICE; } });
+Object.defineProperty(exports, "MAX_KEYBOARD", { enumerable: true, get: function () { return native_1.MAX_KEYBOARD; } });
+Object.defineProperty(exports, "MAX_MOUSE", { enumerable: true, get: function () { return native_1.MAX_MOUSE; } });
+var device_1 = require("./device");
+Object.defineProperty(exports, "Device", { enumerable: true, get: function () { return device_1.Device; } });
+var interception_1 = require("./interception");
+Object.defineProperty(exports, "Interception", { enumerable: true, get: function () { return interception_1.default; } });
+const native_2 = require("./native");
+const installationStatus = () => native_2.default.installationStatus();
+exports.installationStatus = installationStatus;
+//# sourceMappingURL=index.js.map
