@@ -2,6 +2,17 @@
 
 **Node.js / TypeScript bindings for the Microsoft-signed Interceptor Keyboard & Mouse Windows kernel filter driver.** Receive input from individual devices, modify or block events, and send input through their Windows device paths.
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the full driver version without demo restrictions**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full driver version without the demo time limit**, and mention **node-interceptor**.
+>
+> The demo limit belongs to **Interceptor Keyboard & Mouse**, the driver used by this project. Ask for pricing and the appropriate license / activation instructions; the application or wrapper source keeps its existing license.
+<!-- full-version-contact:end -->
+
 **[Download](https://github.com/TitanCSA/node-interceptor/releases/latest)** · [API](docs/API.md) · [Build/tests](docs/BUILD.md) · [Driver](https://github.com/TitanCSA/Interceptor-Keyboard-Mouse)
 
 Adapted from [Rami-Sabbagh/node-interception](https://github.com/Rami-Sabbagh/node-interception). The `Interception`, `Device`, stroke types, filters and wait/send/receive workflow are preserved. A new native bridge uses TitanCSA's demo driver. The original Interception driver/DLL is not installed.
