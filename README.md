@@ -82,9 +82,15 @@ Unselected events are forwarded by the bridge worker; the adapter does not insta
 
 ## Demo, source and licensing
 
+The matching Interceptor-Keyboard-Mouse demo driver source is available; see
+[driver/README.md](driver/README.md) for build instructions and separate
+evaluation-source terms. Those terms apply to Titan-authored driver code. Third-party
+source licenses and existing application/SDK licenses remain applicable. Full/commercial
+implementation and private signing or activation material are excluded.
+
 The bundled driver is the existing **one-hour demo per Windows kernel boot**, beginning with the first capture and shared across this edition's applications. At expiry capture/injection stop; physical input returns to passthrough. Closing, reinstalling or changing wrappers does not reset the allowance. Windows **Restart** starts a new allowance. For an unrestricted driver, DM **`titancsa` on Discord**.
 
-The complete user-mode addon/wrapper source and the two-file Interceptor SDK are included. **Kernel source is excluded.** The adapted Node wrapper is **LGPL-3.0-or-later**, the SDK/bridge carry their MIT notices, and the signed driver has [separate binary terms](licenses/DRIVER.txt). See [NOTICE](NOTICE) for exact upstream revisions and changes.
+The complete user-mode addon/wrapper source and the two-file Interceptor SDK are included. **Demo/evaluation driver source is documented in [driver/README.md](driver/README.md).** The adapted Node wrapper is **LGPL-3.0-or-later**, the SDK/bridge carry their MIT notices, and the signed driver has [separate binary terms](licenses/DRIVER.txt). See [NOTICE](NOTICE) for exact upstream revisions and changes.
 
 ## Responsible use
 
