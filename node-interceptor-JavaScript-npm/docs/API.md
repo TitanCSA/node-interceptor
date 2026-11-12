@@ -1,7 +1,7 @@
 # JavaScript / TypeScript API
 
 ```javascript
-const api = require('@titancsa/node-interceptor');
+const api = require('interceptor-keyboard-mouse');
 const input = new api.Interception();
 ```
 

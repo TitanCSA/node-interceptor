@@ -1,4 +1,4 @@
-const {Interception,FilterKeyState,FilterMouseState}=require('@titancsa/node-interceptor');
+const {Interception,FilterKeyState,FilterMouseState}=require('interceptor-keyboard-mouse');
 console.log('Monitor keyboard/mouse input and forward it unchanged. Press Escape to close.');
 (async()=>{
   const input=new Interception();

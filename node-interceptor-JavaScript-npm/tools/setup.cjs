@@ -5,7 +5,7 @@ const path = require('node:path');
 const fs = require('node:fs');
 const command = process.argv[2];
 if (!['/install', '/uninstall', '--status', '--ui'].includes(command)) {
-  console.log('Usage: node-interceptor /install | /uninstall | --ui | --status\nDriver setup requests administrator approval; restart Windows when requested.');
+  console.log('Usage: interceptor-keyboard-mouse /install | /uninstall | --ui | --status\nDriver setup requests administrator approval; restart Windows when requested.');
   process.exitCode = command ? 2 : 0;
 } else if (command === '--status') {
   console.log(JSON.stringify(require('./load.cjs').installationStatus(), null, 2));

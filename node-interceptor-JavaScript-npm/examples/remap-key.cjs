@@ -1,4 +1,4 @@
-const {Interception,FilterKeyState}=require('@titancsa/node-interceptor');
+const {Interception,FilterKeyState}=require('interceptor-keyboard-mouse');
 console.log('Remap A to B on all keyboards. Press Escape to close.');
 (async()=>{
   const input=new Interception();

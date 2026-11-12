@@ -1,20 +1,24 @@
 {
-  "name": "@titancsa/node-interceptor",
+  "name": "interceptor-keyboard-mouse",
   "version": "1.0.0",
   "description": "Node.js and TypeScript bindings for the Interceptor Keyboard & Mouse Windows kernel filter driver",
   "author": "TitanCSA",
   "contributors": [
     "Rami Sabbagh (original node-interception)"
   ],
-  "repository": "https://github.com/TitanCSA/node-interceptor.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TitanCSA/node-interceptor.git",
+    "directory": "node-interceptor-JavaScript-npm"
+  },
   "license": "LGPL-3.0-or-later",
   "main": "dist/cjs/lib/index.js",
   "types": "dist/cjs/lib/index.d.ts",
   "bin": {
-    "node-interceptor": "tools/setup.cjs"
+    "interceptor-keyboard-mouse": "tools/setup.cjs"
   },
   "files": [
-    "dist/",
+    "dist/cjs/",
     "prebuilds/",
     "native/",
     "src/",
@@ -27,7 +31,8 @@
     "binding.gyp",
     "CMakeLists.txt",
     "README.md",
-    "NOTICE"
+    "NOTICE",
+    "tsconfig.json"
   ],
   "scripts": {
     "install": "node tools/install.cjs",
@@ -68,5 +73,9 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "homepage": "https://github.com/TitanCSA/node-interceptor/tree/main/node-interceptor-JavaScript-npm#readme",
+  "bugs": {
+    "url": "https://github.com/TitanCSA/node-interceptor/issues"
   }
 }

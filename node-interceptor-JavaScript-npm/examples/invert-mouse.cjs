@@ -1,4 +1,4 @@
-const {Interception,FilterMouseState}=require('@titancsa/node-interceptor');
+const {Interception,FilterMouseState}=require('interceptor-keyboard-mouse');
 console.log('Invert relative vertical mouse movement. Ctrl+C closes this console script.');
 (async()=>{
   const input=new Interception();
