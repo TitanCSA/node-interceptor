@@ -7,5 +7,63 @@
       "distribution": "GitHub source and downloadable release artifacts"
     }
   ],
-  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented."
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "binding_not_implemented"
+    },
+    "CPP/conan": {
+      "status": "binding_not_implemented"
+    },
+    "CPP/nuget": {
+      "status": "binding_not_implemented"
+    },
+    "NET/nuget": {
+      "status": "binding_not_implemented"
+    },
+    "Python/pypi": {
+      "status": "binding_not_implemented"
+    },
+    "Python/conda-forge": {
+      "status": "binding_not_implemented"
+    },
+    "Rust/cargo": {
+      "status": "binding_not_implemented"
+    },
+    "JavaScript/npm": {
+      "status": "published_install_verified",
+      "name": "interceptor-keyboard-mouse",
+      "version": "1.0.0",
+      "directory": "node-interceptor-JavaScript-npm",
+      "documentation_bundled": true,
+      "examples_bundled": true,
+      "registry_published": true,
+      "url": "https://www.npmjs.com/package/interceptor-keyboard-mouse"
+    },
+    "Java/maven": {
+      "status": "binding_not_implemented"
+    },
+    "Java/jitpack": {
+      "status": "binding_not_implemented"
+    },
+    "Go/modules": {
+      "status": "binding_not_implemented"
+    },
+    "Go/pkg-go-dev": {
+      "status": "binding_not_implemented"
+    },
+    "PowerShell/gallery": {
+      "status": "binding_not_implemented"
+    },
+    "Dart/pub-dev": {
+      "status": "binding_not_implemented"
+    },
+    "Ruby/rubygems": {
+      "status": "binding_not_implemented"
+    },
+    "PHP/packagist": {
+      "status": "binding_not_implemented"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."
 }
