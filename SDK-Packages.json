@@ -121,26 +121,28 @@
       "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207"
     },
     "CPP/nuget": {
-      "status": "native_package_preparation_required_nuget_on_hold",
-      "nuget_org": false,
-      "artifact": null,
-      "publication_on_hold_by_owner": false,
-      "nuget_publication_status": "ready_requires_trusted_publishing_policy"
+      "status": "published_payload_verified",
+      "name": "NodeInterceptor.Native",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/NodeInterceptor.Native/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
     },
     "NET/nuget": {
-      "status": "built_verified_requires_trusted_publishing_policy",
+      "status": "published_payload_verified",
       "name": "NodeInterceptor.SDK",
       "version": "1.0.0",
-      "directory": "node-interceptor-NET-nuget",
-      "registry_published": false,
-      "documentation_bundled": true,
-      "url": null,
+      "url": "https://www.nuget.org/packages/NodeInterceptor.SDK/1.0.0",
+      "public_payload_verified": true,
       "public_consumer_verified": false,
-      "module": "node_interceptor",
-      "dll_name": "nodeinterceptorJsonSDK.dll",
-      "api_prefix": "node_interceptor_json_",
-      "publication_on_hold_by_owner": false,
-      "nuget_publication_status": "ready_requires_trusted_publishing_policy"
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
     },
     "Python/pypi": {
       "status": "built_fixture_and_production_verified",
