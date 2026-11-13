@@ -1,3 +1,0 @@
-include README.md LICENSE
-recursive-include node_interceptor *.py *.dll
-recursive-include docs *
