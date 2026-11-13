@@ -7,6 +7,10 @@
       "distribution": "GitHub source and downloadable release artifacts"
     },
     {
+      "directory": "packaging/native",
+      "distribution": "Single canonical native source with vcpkg/Conan recipes; original JavaScript SDK retained"
+    },
+    {
       "directory": "node-interceptor-C-ffi",
       "distribution": "Native C ABI adapter to the original project SDK",
       "dll": "nodeinterceptorJsonSDK.dll",
@@ -75,10 +79,6 @@
       "name": "NodeInterceptor",
       "version": "1.0.0",
       "distribution": "Documented native SDK; registry receipt tracked independently"
-    },
-    {
-      "directory": "packaging/native",
-      "distribution": "Single canonical native source with vcpkg/Conan recipes; original JavaScript SDK retained"
     }
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
