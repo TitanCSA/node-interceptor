@@ -5,6 +5,80 @@
       "directory": "node-interceptor-JavaScript-npm",
       "central_registry_status": "not_published",
       "distribution": "GitHub source and downloadable release artifacts"
+    },
+    {
+      "directory": "node-interceptor-C-ffi",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_"
+    },
+    {
+      "directory": "node-interceptor-Python-pypi",
+      "language": "Python",
+      "registry": "pypi",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-Ruby-rubygems",
+      "language": "Ruby",
+      "registry": "rubygems",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-Go-modules",
+      "language": "Go",
+      "registry": "modules",
+      "name": "node-interceptor",
+      "version": "v1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-Dart-pub-dev",
+      "language": "Dart",
+      "registry": "pub-dev",
+      "name": "node_interceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "NodeInterceptor.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-PowerShell-gallery",
+      "language": "PowerShell",
+      "registry": "gallery",
+      "name": "NodeInterceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "packaging/native",
+      "distribution": "Single canonical native source with vcpkg/Conan recipes; original JavaScript SDK retained"
     }
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
