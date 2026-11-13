@@ -4,21 +4,23 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 
 | Target | Status | Package / documentation |
 | --- | --- | --- |
-| CPP/vcpkg | binding_not_implemented |  |
-| CPP/conan | binding_not_implemented |  |
-| CPP/nuget | binding_not_implemented |  |
-| NET/nuget | binding_not_implemented |  |
-| Python/pypi | binding_not_implemented |  |
-| Python/conda-forge | binding_not_implemented |  |
-| Rust/cargo | binding_not_implemented |  |
+| CPP/vcpkg | published_custom_registry | node-interceptor |
+| CPP/conan | public_recipe_builds_locally |  |
+| CPP/nuget | native_package_preparation_required_nuget_on_hold |  |
+| NET/nuget | built_verified_publication_on_hold_by_owner | NodeInterceptor.SDK [Source](node-interceptor-NET-nuget/) |
+| Python/pypi | built_fixture_and_production_verified | node-interceptor [Source](node-interceptor-Python-pypi/) |
+| Python/conda-forge | built_tested_requires_source_publication_and_official_review | node-interceptor [Source](packaging/conda/) |
+| Rust/cargo | published_install_verified | [node-interceptor](https://crates.io/crates/node-interceptor) [Source](node-interceptor-Rust-cargo/) |
 | JavaScript/npm | published_install_verified | [interceptor-keyboard-mouse](https://www.npmjs.com/package/interceptor-keyboard-mouse) [Source](node-interceptor-JavaScript-npm/) |
-| Java/maven | binding_not_implemented |  |
-| Java/jitpack | binding_not_implemented |  |
-| Go/modules | binding_not_implemented |  |
-| Go/pkg-go-dev | binding_not_implemented |  |
-| PowerShell/gallery | binding_not_implemented |  |
-| Dart/pub-dev | binding_not_implemented |  |
-| Ruby/rubygems | binding_not_implemented |  |
-| PHP/packagist | binding_not_implemented |  |
+| Java/maven | published_install_verified | [node-interceptor](https://central.sonatype.com/artifact/io.github.titancsa/node-interceptor/1.0.0) [Source](node-interceptor-Java-maven/) |
+| Java/jitpack | published_install_verified | [node-interceptor](https://jitpack.io/#TitanCSA/node-interceptor/java-sdk-v1.0.0) [Source](node-interceptor-Java-maven/) |
+| Go/modules | published_install_verified | [node-interceptor](https://pkg.go.dev/github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules@v1.0.0) [Source](node-interceptor-Go-modules/) |
+| Go/pkg-go-dev | indexed_verified | [Documentation](https://pkg.go.dev/github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules@v1.0.0) |
+| PowerShell/gallery | published_install_verified | [NodeInterceptor](https://www.powershellgallery.com/packages/NodeInterceptor/1.0.0) [Source](node-interceptor-PowerShell-gallery/) |
+| Dart/pub-dev | built_fixture_and_production_verified | node_interceptor [Source](node-interceptor-Dart-pub-dev/) |
+| Ruby/rubygems | published_install_verified | [node-interceptor](https://rubygems.org/gems/node-interceptor) [Source](node-interceptor-Ruby-rubygems/) |
+| PHP/packagist | composer_source_and_tag_published | [titancsa/node-interceptor](https://packagist.org/packages/titancsa/node-interceptor) |
+
+Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 
 Application and driver prerequisites and original licensing remain those documented by each SDK. No driver installer is bundled with these source packages.
