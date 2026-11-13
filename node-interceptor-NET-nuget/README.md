@@ -1,8 +1,6 @@
 # node-interceptor .NET8 SDK
 
-Package ID `NodeInterceptor.SDK`. NuGet upload remains on hold at owner request.
-
-```csharp
+Package ID `NodeInterceptor.SDK`. ```csharp
 using var client=new TitanCSA.Products.NodeInterceptor.Client();
 string statusJson=client.Call("check", "{\"device\":1}");
 ```
