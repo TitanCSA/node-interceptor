@@ -20,29 +20,30 @@ Adapted from [Rami-Sabbagh/node-interception](https://github.com/Rami-Sabbagh/no
 ## Install
 
 1. Install a supported **Node.js 20+** runtime on **Windows 10 1709+ / Windows 11 x64**.
-2. Download **titancsa-node-interceptor-1.0.0.tgz** from this repository's release.
-3. In your application folder:
+2. In your application folder, install the published [npm package](https://www.npmjs.com/package/interceptor-keyboard-mouse):
 
 ```powershell
-npm install .\titancsa-node-interceptor-1.0.0.tgz
-npx node-interceptor /install
+npm install interceptor-keyboard-mouse@1.0.0
+npx interceptor-keyboard-mouse /install
 ```
 
-Accept the administrator prompt. **Restart Windows if requested**; setup exit `3010` means installation succeeded and a restart is needed. For the graphical setup use `npx node-interceptor --ui`. Package installation itself never elevates or modifies drivers.
+Accept the administrator prompt. **Restart Windows if requested**; setup exit `3010` means installation succeeded and a restart is needed. For the graphical setup use `npx interceptor-keyboard-mouse --ui`. Package installation itself never elevates or modifies drivers.
 
-Run capture scripts from an **administrator terminal**. Prebuilt Node-API 8 addons are included for x64 and ia32 Node on x64 Windows; no C++ compiler or runtime dependencies are required to use the downloaded package. The package is distributed on GitHub; do not substitute an unrelated package from the public npm registry.
+Run capture scripts from an **administrator terminal**. Prebuilt Node-API 8 addons are included for x64 and ia32 Node on x64 Windows; no C++ compiler or runtime dependencies are required to use the downloaded package. The npm package name is `interceptor-keyboard-mouse`; its setup command has the same name. API guides and examples are also available in the [central SDK folder](https://github.com/TitanCSA/sdk-packages/tree/main/projects/node-interceptor/node-interceptor-JavaScript-npm).
 
 ```powershell
-npx node-interceptor --status
-npx node-interceptor /uninstall
+npx interceptor-keyboard-mouse --status
+npx interceptor-keyboard-mouse /uninstall
 ```
 
 The installer uses the same setup engine as the driver's own console/UI installers. Close capture applications before uninstalling. The graphical installer also offers diagnostics and restart guidance. An existing overlapping combined Interceptor edition must be uninstalled with its own setup first.
 
+The older GitHub archive `titancsa-node-interceptor-1.0.0.tgz` uses the module name `@titancsa/node-interceptor` and the `node-interceptor` setup command. The commands and example here use the npm package.
+
 ## Receive, change, forward
 
 ```javascript
-const { Interception, FilterKeyState } = require('@titancsa/node-interceptor');
+const { Interception, FilterKeyState } = require('interceptor-keyboard-mouse');
 const input = new Interception();
 
 async function main() {
