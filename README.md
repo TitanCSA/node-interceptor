@@ -3,7 +3,11 @@
 <!-- simple-start:start -->
 Read keyboard and mouse input in a Node.js app.
 
-**Start here.** Install the Interceptor Keyboard & Mouse driver, then run the package's first example.
+[First steps](#first-steps) · [Develop](#sdk-and-packages) · [Maintain](https://github.com/TitanCSA/sdk-packages/blob/main/CONTRIBUTING.md)
+
+## First steps
+
+Install the Interceptor Keyboard & Mouse driver, then run the package's first example.
 <!-- simple-start:end -->
 
 <!-- full-version-contact:start -->
@@ -100,30 +104,9 @@ The complete user-mode addon/wrapper source and the two-file Interceptor SDK are
 For lawful automation, accessibility, input customization, testing and research. Users are responsible for authorization, laws and third-party rules. Illegal or unauthorized use is not endorsed. The software is provided **AS IS**, without warranties or liability to the extent permitted by law; existing license terms and non-excludable rights remain applicable.
 
 <!-- central-sdk-packages:start -->
-## Paquets et installation
+<a name="paquets-et-installation"></a>
 
-Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK dedie](https://github.com/TitanCSA/sdk-packages/tree/main/projects/node-interceptor). Choisis le paquet a installer puis execute sa commande dans son dossier.
+## SDK and packages
 
-| Registre | Paquet | Installation / utilisation |
-| --- | --- | --- |
-| vcpkg | `node-interceptor` | `vcpkg install node-interceptor:x64-windows` |
-| Conan | `node-interceptor` | `conan install --requires=node-interceptor/1.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
-| NuGet | `NodeInterceptor.Native` | `Install-Package NodeInterceptor.Native -Version 1.0.0` |
-| NuGet | `NodeInterceptor.SDK` | `dotnet add package NodeInterceptor.SDK --version 1.0.0` |
-| PyPI | `node-interceptor` | Commande prevue apres publication : `python -m pip install node-interceptor==1.0.0` |
-| Conda | `node-interceptor` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge node-interceptor` (canal TitanCSA) |
-| crates.io | `node-interceptor` | `cargo add node-interceptor@1.0.0` |
-| npm | `interceptor-keyboard-mouse` | `npm install interceptor-keyboard-mouse@1.0.0` |
-| Maven Central | `io.github.titancsa:node-interceptor` | `io.github.titancsa:node-interceptor:1.0.0 (pom.xml / Gradle)` |
-| JitPack | `com.github.TitanCSA:node-interceptor` | `com.github.TitanCSA:node-interceptor:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| Go Modules | `github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules` | `go get github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules@v1.0.0` |
-| pkg.go.dev | `github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules@v1.0.0` |
-| PowerShell Gallery | `NodeInterceptor` | `Install-Module NodeInterceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `node_interceptor` | Commande prevue apres publication : `dart pub add node_interceptor:1.0.0` |
-| RubyGems | `node-interceptor` | `gem install node-interceptor -v 1.0.0` |
-| Packagist | `titancsa/node-interceptor` | `composer require titancsa/node-interceptor:1.0.0` |
-
-Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/node-interceptor/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
-
-Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
+Choose a language in the [SDK and package guide](https://github.com/TitanCSA/sdk-packages/tree/main/projects/node-interceptor#readme) for exact install commands and examples. If your example requires a driver or app, install it separately.
 <!-- central-sdk-packages:end -->
