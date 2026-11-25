@@ -1,13 +1,16 @@
 # node-interceptor
 
+<!-- simple-start:start -->
+Read keyboard and mouse input in a Node.js app.
+
+**Start here.** Install the Interceptor Keyboard & Mouse driver, then run the package's first example.
+<!-- simple-start:end -->
+
 <!-- full-version-contact:start -->
 > [!IMPORTANT]
-> **Get the version without the one-hour demo limit**
+> **Version without the one-hour demo limit**
 >
-> **Discord · `titancsa`**. Open [Discord](https://discord.com/app), choose **Friends → Add Friend**, enter **`titancsa`** and send a message.
-> Mention **node-interceptor** and ask for the full **Interceptor** driver. TitanCSA will share the purchase details privately.
->
-> **FR · Version sans la limite d’une heure.** Ajoute **`titancsa`** sur Discord et envoie le nom du projet. Le lien d’achat est communiqué en privé.
+> In [Discord](https://discord.com/app), choose **Add Friend** and enter **`titancsa`**. Mention **node-interceptor** and ask for the full **Interceptor** driver. Purchase details are sent privately.
 <!-- full-version-contact:end -->
 
 **Node.js / TypeScript bindings for the Microsoft-signed Interceptor Keyboard & Mouse Windows kernel filter driver.** Receive input from individual devices, modify or block events, and send input through their Windows device paths.
@@ -124,5 +127,3 @@ Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide compl
 
 Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
 <!-- central-sdk-packages:end -->
-
-
